@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comfortaa:wght@300..700&family=Just+Another+Hand&display=swap');
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background:#f7ffffd0;
+}
+
+ .caracteristicas h3{
+    width: 65%;
+    font-size: 30px;
+    padding: 15px;
+    color: #072a42;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+  
+header{
+    flex-direction: column;
+    justify-content: space-between;
+    background: #e7ffff;
+    width: 100%;
+    display: flex;
+    min-height:  100px;
+    align-items: center;
+}
+
+p{
+color: #072a42;
+font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 136, 160);
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:  #94e8fd;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1{
+    justify-content: center;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+.logo img{
+    width: 200px}
+
+img{
+    width: 200px;
+}
+
+.conocenos{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10pz 0 10px 0;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px;
+}
+
+.conocenos h2{
+    color: rgb(0, 136, 160);
+}
+.conocenos p{
+width: 65%;
+font-size: 15px;
+padding: 15px;
+color: #072a42;
+font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+.caracteristicas li{
+    color: #072a42;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.bienvenidos{
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    color: rgb(0, 136, 160);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.carousel-inner{
+width: 60%;
+margin-left: 25%;
+}
+
+#carouselExampleAutoplaying{
+    background-color:rgb(216, 249, 255);
+
+}
+
+.titulo{
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(0, 136, 160);
+font-family: "Caveat Brush", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+.tejidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+    color: rgb(0, 136, 160);
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.tejidos p{
+    font-size: 15px;
+padding: 15px;
+color: #072a42;
+font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+.ramo-de-tulipanes img{
+width: 208px;
+}
+
+.crochet{
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    color: rgb(0, 136, 160);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.accesorios-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 10px;
+    width: 1100px;
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px 12px;}
+
+.accesorios-titulo{
+text-align: center;
+color: rgb(0, 136, 160);
+font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+display: flex;
+flex-direction: column;
+padding:50px 12px;
+align-items: center;
+}
+
+
+.caja {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja a:hover{
+    color: #94e8fd;
+}
+.caja h3{
+    justify-content: center;
+    display: flex;
+}
+
+.caja p{
+    text-align: center;
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 50px 12px ;
+}
+
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    align-items: center;
+}
+.fondo-1{
+    width: 350px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #e7ffff;
+margin: 50px;
+}
+
+footer img{
+    width: 80px;
+    margin: 25px 10px;
+}
+.container-flores{
+    text-align: center;
+    color: rgb(0, 136, 160);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    padding:50px 12px;
+    align-items: center;
+}
+.card .card-body{
+    color: rgb(0, 136, 160);
+font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+.card .card-body .card-title{
+    color: rgb(0, 136, 160);
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: #e7ffff;
+    margin: 20px 40px;
+flex: 0 0 calc(50%- 20px);
+margin: 10px;
+}
+.card a{
+    background-color: #f7ffffd0;
+    border-color: #072a42;
+    color: #072a42;
+}
+.card a:hover{
+    background-color: #94e8fd;
+    color: #072a42;
+}
+
+
+.cajas{
+    text-align: center;
+    color: rgb(0, 136, 160);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    padding:50px 12px;
+    align-items: center;
+}
+.exagonal{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.titulo{
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    color: rgb(0, 136, 160);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
